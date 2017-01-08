@@ -9,16 +9,6 @@
                 <img src="assets/images/pocoyo.jpg" alt="I'm pocoyo">
             </p>
         </section>
-        <div class="videos" layout-align="center">
-            <md-card ng-repeat="video in main.videos" flex="25" flex-sm="100" flex-xs="100">
-                <md-card-content>
-                    <a ng-href="https://www.youtube.com/watch?v={{ video.id.videoId }}" target="_blank">
-                        <img class="pull-right" ng-src="{{ video.snippet.thumbnails.default.url }}" alt="{{ video.title }}">
-                        <h4 class="md-title">{{ video.snippet.title }}</h4>
-                        <p>{{ video.snippet.description }}</p>
-                    </a>
-                </md-card-content>
-            </md-card>
-        </div>
+        <card-Videos></card-Videos>
     </md-content>
 </div>

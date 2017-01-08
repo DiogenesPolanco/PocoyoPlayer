@@ -14,7 +14,7 @@ export class PocoyoVideoService {
         pageToken: '',
         part: 'id,snippet',
         fields: 'items/id,items/snippet/title,items/snippet/description,items/snippet/thumbnails/default,items/snippet/channelTitle,nextPageToken',
-        q: qstring
+        q: qstring !== undefined ? 'pocoyo' + qstring : qstring
       }
     })
       .then((response: any): any => {
