@@ -1,0 +1,14 @@
+{
+    "name": "pocoyoplayer",
+    "version": false,
+    "globalDependencies": {
+        "angular-animate": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-animate.d.ts#bb051830df88f5a55dcf06b7fe85bf6b62cc97f2",
+        "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#bb051830df88f5a55dcf06b7fe85bf6b62cc97f2",
+        "angular-route": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-route.d.ts#bb051830df88f5a55dcf06b7fe85bf6b62cc97f2",
+        "angular-material": "github:DefinitelyTyped/DefinitelyTyped/angular-material/angular-material.d.ts#bb051830df88f5a55dcf06b7fe85bf6b62cc97f2",
+        "angular-mocks": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-mocks.d.ts#bb051830df88f5a55dcf06b7fe85bf6b62cc97f2",
+        "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#bb051830df88f5a55dcf06b7fe85bf6b62cc97f2",
+        "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#bb051830df88f5a55dcf06b7fe85bf6b62cc97f2",
+        "karma-jasmine": "github:DefinitelyTyped/DefinitelyTyped/karma-jasmine/karma-jasmine.d.ts#bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
+    }
+}

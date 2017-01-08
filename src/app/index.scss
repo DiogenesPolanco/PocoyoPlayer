@@ -1,0 +1,75 @@
+// bower:scss
+// endbower
+md-content {
+    width: 100%
+}
+
+.lead img {
+    max-width: 300px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+[layout=row] {
+    flex-direction: row;
+}
+
+md-toolbar.md-default-theme {
+    background-color: black;
+}
+
+section.jumbotron {
+    overflow-x: hidden;
+    padding: 1px 30px;
+    text-align: center;
+    color: #5aadbb;
+    h1 {
+        font-size: 3em;
+    }
+}
+
+.videos {
+    display: flex;
+    flex-flow: row wrap;
+    md-card {
+        width: 30%;
+        img.pull-right {
+            float: right;
+            width: 100px;
+        }
+    }
+}
+
+
+/**
+ *  Do not remove the comment below. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+
+// injector
+// endinjector
