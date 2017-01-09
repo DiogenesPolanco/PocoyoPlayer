@@ -35,7 +35,7 @@ Esto te permite ejecutar `gulp` y` bower` desde la consola.
 4)  Instala las dependencias locales con `npm` y` bower`.
 
 ```sh
-cd  PocoyoPlayer && npm install && bower install
+cd  PocoyoPlayer && npm install && typings install && bower install
 ```
  
 ### Flujo de desarrollo
