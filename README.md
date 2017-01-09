@@ -42,10 +42,10 @@ cd  PocoyoPlayer && npm install && bower install
 
 #### Build "dist" folder
 ```sh
-Gulp build
+gulp build
 ```
 
 #### RUN
 ```sh
-Gulp serve
+gulp serve
 ```
