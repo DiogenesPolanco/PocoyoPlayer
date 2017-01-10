@@ -15,12 +15,12 @@ Ver la version más reciente de PocoyoPlayer [Aqui!] (Http://PocoyoPlayer.azurew
  
  
 **Tienes que instalar las dependencias:**
-* [Git]()
-* [NodeJs]()
-* [TypeScript]()
-* [Bower]()
-* [GulpJs]()
-* [VSCode]()
+* [Git](https://git-scm.com/downloads)
+* [NodeJs](https://nodejs.org/en/download/)
+* [TypeScript](https://www.typescriptlang.org/#download-links)
+* [Bower](https://bower.io/#install-bower)
+* [GulpJs](http://gulpjs.com/)
+* [VSCode](https://code.visualstudio.com/download)
 
 1) Si no tiene Node.js instalado o tiene una versión inferior, ve a [nodejs.org](https://nodejs.org) y haga clic en el botón de instalación grande verde.
 
