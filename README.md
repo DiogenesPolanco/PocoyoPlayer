@@ -24,15 +24,15 @@ Ver la version más reciente de PocoyoPlayer [Aqui!] (Http://PocoyoPlayer.azurew
 
 1) Si no tiene Node.js instalado o tiene una versión inferior, ve a [nodejs.org](https://nodejs.org) y haga clic en el botón de instalación grande verde.
 
-3) Instala `gulp` y `bower` globalmente.
+3) Instala `typings`, `gulp` y `bower` globalmente.
 
 ```sh
-npm install -g gulp bower
+npm install -g typings gulp bower
 ```
 
-Esto te permite ejecutar `gulp` y` bower` desde la consola.
+Esto te permite ejecutar `typings`,`gulp` y` bower` desde la consola.
 
-4)  Instala las dependencias locales con `npm` y` bower`.
+4)  Instala las dependencias locales con `npm`, `typings` y` bower`.
 
 ```sh
 cd  PocoyoPlayer && npm install && typings install && bower install
