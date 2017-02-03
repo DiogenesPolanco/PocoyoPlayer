@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "dependencies": {},
     "scripts": {
-        "start": "gulp serve"
+        "start": "typings install && bower install && gulp serve"
     },
     "devDependencies": {
         "estraverse": "~4.1.0",
@@ -51,7 +51,8 @@
         "http-proxy-middleware": "~0.9.0",
         "chalk": "~1.1.1",
         "uglify-save-license": "~0.4.1",
-        "bower":"~1.8.0"
+        "bower":"~1.8.0",
+        "typings":"~2.1.0"
     },
     "engines": {
         "node": ">=0.10.0"
