@@ -50,7 +50,8 @@
         "browser-sync-spa": "~1.0.3",
         "http-proxy-middleware": "~0.9.0",
         "chalk": "~1.1.1",
-        "uglify-save-license": "~0.4.1"
+        "uglify-save-license": "~0.4.1",
+        "bower":"~1.8.0"
     },
     "engines": {
         "node": ">=0.10.0"
